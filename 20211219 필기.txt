@@ -1,0 +1,82 @@
+
+장성호
+010-2582-2242
+jjang051@hanmail.net
+
+
+2021.12.19 일요일
+
+1. vscode extention 에서 설치
+  -. live server
+  -. vscode-icons
+  -. Live Sass Compiler
+     -> Settings Docs 클릭 
+     -> github 사이트에 하단 example 복사
+    Example :
+        "liveSassCompile.settings.formats":[
+            // This is Default.
+            {
+                "format": "expanded",
+                "extensionName": ".css",
+                "savePath": null
+            },
+            // You can add more
+            {
+                "format": "compressed",
+                "extensionName": ".min.css",
+                "savePath": "/dist/css"
+            },
+            // More Complex
+            {
+                "format": "compressed",
+                "extensionName": ".min.css",
+                "savePath": "~/../css/"
+            }
+        ]
+     -> vscode의 설정에서 settings:formats에 복붙 후 css경로 변경
+
+        // This is Default.
+        {
+            "format": "compact",
+            "extensionName": ".css",
+            "savePath": "~/../css/"
+        },
+
+*tip View Command Palette -> emmet:wrap with abbreviation 사용하기
+ ex) ul>li*>a
+
+
+2. git 다운로드 후 잘 되었는지 cmd에서 gir --version 확인해보기.
+
+3. server가 없기 때문에 회원가입 필요.
+ -. https://developers.kakao.com/ ---> api
+ -. 공공데이터포털 
+
+*tip 지디웹으로 국내 디자인 사이트
+*tip awwwards.com 해외 디자인 사이트
+*tip canvas 이용할 때 유용 사이트 
+-> https://developer.mozilla.org/ko/docs/Web/API/Canvas_API
+-> http://paperjs.org/
+-> https://pixijs.com/
+
+
+
+****tip 양재동 코드랩 컨퍼런스 이용하기****
+****tip 찾아볼 아이 -> 웹지엘? 요즘 트렌드라는데...?****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
