@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.biman {
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    input {
+        display: block;
+        height: 50px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 0 20px;
+    }
+    button {
+        display: block;
+        border: none;
+        outline: none;
+        background-color: #111;
+        color: #fff;
+        height: 50px;
+        width: 100%;
+    }
+    #txtResult {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: rgb(57, 99, 214);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        span {
+            margin: 0 10px;
+        }
+    }
+}

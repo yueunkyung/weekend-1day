@@ -3,6 +3,9 @@
 010-2582-2242
 jjang051@hanmail.net
 
+선생님 깃허브
+https://github.com/redpeach051/weekend-1day
+
 
 2021.12.19 일요일
 
@@ -62,7 +65,7 @@ jjang051@hanmail.net
 
 
 ****tip 양재동 코드랩 컨퍼런스 이용하기****
-****tip 찾아볼 아이 -> 웹지엘? 요즘 트렌드라는데...?****
+****tip 찾아볼 아이 -> 웹지엘? 요즘 트렌드라는데...? three.js 참고****
 
 4. node.js는 브라우저 없이 js를 동작시킬 수 있다
 
@@ -76,10 +79,14 @@ jjang051@hanmail.net
         }
     }
 
+6. 유니코드 이용
+https://unicode-table.com/en/#basic-latin
 
+7. 정규표현식 읽어보기
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Regular_Expressions
 
-
-
+8. display flex 관련 사이트 참고하기 - flex prog
+https://flexboxfroggy.com/#ko
 
 
 
