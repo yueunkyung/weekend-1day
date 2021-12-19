@@ -6,6 +6,6 @@
 
 .biman button { display: block; border: none; outline: none; background-color: #111; color: #fff; height: 50px; width: 100%; }
 
-.biman #txtResult { margin-top: 20px; padding: 20px; background-color: #3963d6; color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.biman #txtResult { margin-top: 20px; padding: 20px; background-color: #3963d6; color: #fff; display: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 .biman #txtResult span { margin: 0 10px; }
