@@ -1,0 +1,6 @@
+1. 폴더 이동
+2. git init ( 깃 관리하에 들어간다.)
+3. git add . (stage에 모두 올리기)
+4. git commit -m "01 설명"
+
+터미널에서 작업하다 꼬이면 ctrl+c
