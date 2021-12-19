@@ -21,3 +21,8 @@ git checkout master 로 checkout 해주면 원 상태로 보임.
 4. 만들어진 저장소에 푸시하기 ==> $ git push origin master
 
 
+***git으로 clone 하기***
+집에서 보고 싶을 경우
+git clone https://github.com/yueunkyung/weekend-1day.git
+
+
