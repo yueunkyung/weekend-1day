@@ -4,8 +4,10 @@
 
 .biman input { display: block; height: 50px; margin-bottom: 10px; width: 100%; padding: 0 20px; }
 
-.biman button { display: block; border: none; outline: none; background-color: #111; color: #fff; height: 50px; width: 100%; }
+.biman button { display: block; border: none; outline: none; background-color: #111; color: #fff; height: 50px; width: 100%; cursor: pointer; }
 
 .biman #txtResult { margin-top: 20px; padding: 20px; background-color: #3963d6; color: #fff; display: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 .biman #txtResult span { margin: 0 10px; }
+
+.biman #btnReset { background-color: #666; margin-top: 15px; display: none; }

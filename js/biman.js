@@ -5,6 +5,7 @@ const btnResult = document.querySelector("#btnResult");
 const txtResult = document.querySelector("#txtResult");
 const txtResultNum = document.querySelector("#txtResult .num");
 const txtResultTxt = document.querySelector("#txtResult .txt");
+const btnReset = document.querySelector("#btnReset");
 
 /*
 const now = new Date();
@@ -30,11 +31,23 @@ jegob(3);
 // console.log(inputHeight);
 // console.log(inputWeight);
 
-function showAlertTxt(msg, _biman){
-    
+// txtResult 사라지기
+// 나도 사라지기
+// txtResultNum.textContent=""
+// txtResultTxt.textContent=""
+function hideAlertTxt(){
+    txtResult.style.display = "none";
+    btnReset.style.display = "none";
+    inputHeight.value = "";
+    inputWeight.value = "";
+    inputHeight.focus();
+}
+
+function showAlertTxt(msg, _biman){    
     txtResult.style.display = "flex";
     txtResultNum.textContent = Math.round(_biman*100)/100;
     txtResultTxt.textContent = msg;
+    btnReset.style.display = "block";
 }
 
 btnResult.addEventListener("click", function(){
@@ -67,3 +80,7 @@ btnResult.addEventListener("click", function(){
         showAlertTxt("언제 죽어도 모른다는....", biman);
     }
 });
+
+btnReset.addEventListener("click", hideAlertTxt);
+
+// console.log(Math.round(8.44498754*100)/100);

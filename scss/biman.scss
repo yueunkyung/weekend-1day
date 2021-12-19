@@ -24,6 +24,7 @@
         color: #fff;
         height: 50px;
         width: 100%;
+        cursor: pointer;
     }
     #txtResult {
         margin-top: 20px;
@@ -35,5 +36,10 @@
         span {
             margin: 0 10px;
         }
+    }
+    #btnReset {
+        background-color: #666;
+        margin-top: 15px;
+        display: none;
     }
 }
