@@ -14,3 +14,10 @@ git checkout 102ad1597c6824835e27bbac54fec620c2907fc6로 checkout 하면
 git checkout master 로 checkout 해주면 원 상태로 보임.
 
 
+***git으로 push 하기***
+1. git add .
+2. git commit -m "제목쓰기"
+3. 저장소 만들기 ==> git remote add origin https://github.com/yueunkyung/weekend-1day.git
+4. 만들어진 저장소에 푸시하기 ==> $ git push origin master
+
+
