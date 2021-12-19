@@ -4,3 +4,12 @@
 4. git commit -m "01 설명"
 
 터미널에서 작업하다 꼬이면 ctrl+c
+
+git history 보려면
+git log 로 커밋 상태를 보고
+(git log에서 나오려면 q 누르면 됨)
+git checkout 102ad1597c6824835e27bbac54fec620c2907fc6로 checkout 하면
+표시하고자 하는 상태를 보여줌 그리고 원상복귀를 원할 때에는
+git checkout master 로 checkout 해주면 원 상태로 보임.
+
+
